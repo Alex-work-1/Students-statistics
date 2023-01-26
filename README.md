@@ -1,3 +1,4 @@
 # Students-statistics
 
-<i>Comming soon.</i>
+This is a <em>Shiny</em> application which displays a basic statistics of students applications by year.
+
