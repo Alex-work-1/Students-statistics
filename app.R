@@ -15,7 +15,7 @@ library(plotly)
 library(magrittr)
 library(stringr)
 
-setwd("~/Desktop/System/University system/R Advanced/shiny project/shiny_project")
+setwd("")
 
 get_years <- function(file_pattern){ # prih, zaj
   
