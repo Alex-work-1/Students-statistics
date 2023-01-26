@@ -7,6 +7,10 @@
 #    http://shiny.rstudio.com/
 #
 
+# For the proper code working, setwd("") has to point to the dirrectory where this file is located, 
+# and this dirrectory has to contain the folder "data" with the necessary ".csv" tables. 
+
+
 library(shiny)
 
 library(data.table)
@@ -17,7 +21,7 @@ library(stringr)
 
 setwd("")
 
-get_years <- function(file_pattern){ # prih, zaj
+get_years <- function(file_pattern){ # prihlasky, zajemci
   
   fls <- list.files(path = "./data/",
                     pattern = ".csv",
